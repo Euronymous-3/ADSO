@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Factura de Venta</title>
+    <link rel="stylesheet" type="text/css" href="factura.css">
+   
+  </head>
+  <body>
+    <div class="factura">
+      <div class="encabezado">
+        <div class="logo">
+          <img src="https://img.freepik.com/vector-gratis/concepto-logotipo-pub-cerveza-vintage_225004-1226.jpg?w=2000" alt="Logo">
+        </div>
+        <div class="info-empresa">
+          <h2>Empresa de ejemplo S.A.</h2>
+          <p>Villapinzon</p>
+          <p>Ciudad, Estado</p>
+          <p>Teléfono: (+57) 322 223 48 48</p>
+        </div>
+        <div class="info-factura">
+          <h2>Factura de Venta</h2>
+          <p>Número de Factura: 123456</p>
+          <p>Fecha: 3 de mayo de 2023</p>
+        </div>
+      </div>
+      <hr>
+      <div class="detalle">
+        <h3>Detalle de la compra</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Descripción</th>
+              <th>Cantidad</th>
+              <th>Precio Unitario</th>
+              <th>Importe</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Cerveza</td>
+              <td>2</td>
+              <td>$5.00</td>
+              <td>$10.00</td>
+            </tr>
+            <tr>
+              <td>Shot Ginebra</td>
+              <td>1</td>
+              <td>$15.00</td>
+              <td>$15.00</td>
+            </tr>
+            <tr>
+              <td>Bot Vodka</td>
+              <td>3</td>
+              <td>$25.00</td>
+              <td>$75.00</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3">Subtotal</td>
+              <td>$95.00</td>
+            </tr>
+            <tr>
+              <td colspan="3">Impuestos</td>
+              <td>$5.00</td>
+            </tr>
+            <tr>
+              <td colspan="3">Total</td>
+              <td>$100.00</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+      <hr>
+      <div class="pie">
+        <p>Gracias por su compra</p>
+      </div>
+    </div>
+    <footer>
+        <div class="button-container">
+        <button class="green-button" >Imprimir Factura</button>
+        <button class="green-button" onclick="location.href='mesas.html'">Volver A Mesas</button>
+    </div>
+    </footer>
+  </body>
+</html>
